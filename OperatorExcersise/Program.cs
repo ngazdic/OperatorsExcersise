@@ -4,22 +4,23 @@ using OperatorExcersise;
 
 
 
-Console.WriteLine(Calculations.Subtract(2, 5));
-Console.WriteLine(Calculations.Multiply(2, 5));
-Console.WriteLine(Calculations.Divide(2, 2));
-Console.WriteLine(Calculations.Add(2, 5));
-Console.WriteLine(Calculations.Modulus(2, 2));
+//Console.WriteLine(Calculations.Subtract(2, 5));
+//Console.WriteLine(Calculations.Multiply(2, 5));
+//Console.WriteLine(Calculations.Divide(2, 2));
+//Console.WriteLine(Calculations.Add(2, 5));
+//Console.WriteLine(Calculations.Modulus(2, 2));
 
 
 
-
-
-
+Console.WriteLine("Enter two numbers to divide them:");
 
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int quotient = a / b;
 int remainder = a % b;
+
+
+
 
 if (a % b == 0)
 {
